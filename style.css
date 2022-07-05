@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color: bisque;
+    height: 99vh;
+    width:99.9vw;
+}
+
+.header{
+    background-color: darkviolet;
+    color: white;
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px auto;
+    border-radius: 40px;
+}
+
+.header header{
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.sorts {
+    display: flex;
+    width: 99%;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    background-color: black;
+    border: 2px solid orangered;
+    margin: 5px auto;
+    height: 55px;
+}
+
+.insertion{
+    font-size: 22px;
+    border: 2px solid yellow;
+    border-radius: 6px;
+    padding: 5px;
+    background-color: cyan;
+    font-weight: bold;
+    color: navy;
+}
+.bubble{
+    font-size: 22px;
+    border: 2px solid yellow;
+    border-radius: 6px;
+    padding: 5px;
+    background-color: cyan;
+    font-weight: bold;
+    color: navy;
+}
+.selection{
+    font-size: 22px;
+    border: 2px solid yellow;
+    border-radius: 6px;
+    padding: 5px;
+    background-color: cyan;
+    font-weight: bold;
+    color: navy;
+}
+
+.quick{
+    font-size: 22px;
+    border: 2px solid yellow;
+    border-radius: 6px;
+    padding: 5px;
+    background-color: cyan;
+    font-weight: bold;
+    color: navy;
+}
+
+.insertion:hover{
+    cursor: pointer;
+    background-color: white;
+}
+.bubble:hover{
+    cursor: pointer;
+    background-color: white;
+}
+.selection:hover{
+    cursor: pointer;
+    background-color: white;
+}
+
+.quick:hover{
+    cursor: pointer;
+    background-color: white;
+}
+
+.arrayData{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: 14px auto 0 auto;
+    height: 350px;
+    background-color: black;
+    align-items: flex-end;
+    border: 6px solid darkviolet;
+}
+.bar{
+    width: 4%;
+    color: black;
+    background-color: rgb(0, 183, 255);
+    border: 0.3px solid yellow;
+    color: rgb(7, 5, 64);
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    margin-top: 20px;
+    height: 60px;
+    align-items: center;
+}
+
+.createRandArr{
+    font-size: 12px;
+    border: 2px solid yellow;
+    border-radius: 6px;
+    padding: 1px;
+    background-color: cyan;
+    font-weight: bold;
+    color: navy;
+}
+
+.refresh{
+    font-size: 18px;
+    border: 2px solid yellow;
+    border-radius: 6px;
+    padding: 1px;
+    background-color: cyan;
+    font-weight: bold;
+    color: navy;
+}
+
+
+.createRandArr:hover{
+    cursor: pointer;
+    background-color: white;
+}
+
+.refresh:hover{
+    cursor: pointer;
+    background-color: white;
+}
+
+
+
+
+

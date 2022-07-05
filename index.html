@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algorithm Visualizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="header">
+            <header>
+                Sorting Algorithm Visualizer
+            </header>
+          </div>
+
+          <div class="sorts">
+            <div class="selection">
+                Selection Sort
+            </div>
+
+            <div class="bubble" >
+                Bubble Sort
+
+            </div>
+
+            <button class="insertion">
+                Insertion Sort
+            </button>
+
+            <button class="quick">
+                Quick Sort
+            </button>
+
+        </div>
+
+        <div class="arrayData" id="classData"> </div>
+
+        <div class="bottom">
+
+            <div class="sizeSelect">
+                <div style="color: white" id="dataDisplay">Choose Data Size</div>
+                <input id="sliderSize" class="sliderSize" type="range" min="5" max="30" step="1" value="15">
+                <button class="createRandArr">
+                    Create
+                </button>
+
+            </div>
+
+            <div class="refresh">
+                refresh
+            </div>
+
+            <div class="speedSelect">
+
+                <div style="color: white" id="multi">Speed </div>
+                <input id="sliderSpeed" type="range" min="0.25" max="3" step="0.25" value="1">
+
+            </div>
+            
+        </div>
+            
+    </div>
+
+    <script src="app.js"> </script>
+
+</body>
+
+</html>
